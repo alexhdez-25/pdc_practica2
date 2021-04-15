@@ -1,16 +1,11 @@
 h1 {
-    background-color: rgb(89, 52, 190);
-    color: rgb(221, 238, 221);
+    width: 40em;
+    background-color: rgb(248, 249, 250);
+    color: rgb(23, 54, 139);
   }
 
-.highlight {
-    font-size: 20px;
-    width: 10em;
-    background-color: rgb(9, 2, 29);
-    color: rgb(230, 217, 39);
-    }
-
 .title {
-    font-size: 65px;
+    font-size: 40px;
       }
+
 
