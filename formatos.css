@@ -1,11 +1,24 @@
+body {
+      background-color: rgb(237, 241, 245);
+    }
+
+button {
+  width: 10em;
+  }
+
 h1 {
     width: 40em;
-    background-color: rgb(248, 249, 250);
     color: rgb(23, 54, 139);
   }
 
-.title {
+title {
     font-size: 40px;
       }
 
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
 

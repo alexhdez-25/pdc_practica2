@@ -10,26 +10,68 @@
   <title>Ejercicio 1</title>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3" style="background-color:rgb(248, 248, 245);">
-        <img src="../logo.jpg" class="img-thumbnail" alt="Cinque Terre">
-      </div>
-        <h1 class="title">Prueba de Evaluación Continuada 2 (PEC2)</h1>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+          <div class="col-sm-3">
+          <img src="../logo.jpg" class="img-thumbnail" usemap="#workmap" alt="UOC">
+          <map name="workmap">
+            <area shape="rect" coords="1,1,250,63" alt="UOC" href="https://www.uoc.edu/portal/es/index.html">
+          </map>
+        </div>
+          <h1 class="title">Prueba de Evaluación Continuada 2 (PEC2)</h1>
+        </div>
     </div>
+  
+   <div class="container-fluid">
+    <button type="button" class="btn btn-secondary float-left"><a href="../index.html">Home</a></button>
+   </div>
+  
+   <div class="panel panel-default">
+       <div style="text-align:center" class="panel-body">Se ha usado Visual Studio Code como editor lenguaje HTML5 y se ha integrado con Github bajo filosofia DepOps para la construccion de esta sitio</div>
   </div>
 
-  <div class="bg-info clearfix">
-    <button type="button" class="btn btn-secondary float-left"><a href="../index.html">Home</a></button>
-  </div>
-  
-  <div class="main-container">
-    <div style="text-align:center"> 
+
+  <div class="container-fluid">
+  <div style="text-align:center"> 
+  <div class="col-sm-6">
+    <div class="row">
       <video width="320" height="240" controls>
-      <source src="../clip.mp4" type="video/mp4">
-      </video>
-      <p class="highlight">Video Clip insertado en formato MP4</p>
+        <source src="../clip.mp4" type="video/mp4">
     </div>
+        Format: MPEG-4/AVC   AAC LC<br>
+        Resolution: 640X352 pixels<br>
+        File size: 5.22 MiB<br>
+        Overall bit rate: 2119 kb/s<br>
+        Format settings: CABAC / 1 Ref Frames<br>
+        Format settings, Reference frames: 1 frame<br>
+        Duration: 20 s 659 ms<br>
+        Bit rate  : 2019 kb/s<br>
+        Frame rate: 29.970 (29970/1000) FPS<br>
+        Bits/(Pixel*Frame): 0.299<br>
+        Stream size: 4.97 MiB (95%)<br>
+    </div>
+
+    <div class="col-sm-6">
+      <div class="row">
+        <video width="320" height="240" controls>
+          <source src="../clip3.mp4" type="video/mp4">
+      </div>
+          Format: MPEG-4/AVC   AAC LC<br>
+          Resolution: 640X352 pixels<br>
+          File size: 5.22 MiB<br>
+          Overall bit rate: 230 kb/s<br>
+          Format settings: CABAC / 4 Ref Frames<br>
+          Format settings, Reference frames: 4 frames<br>
+          Duration: 20 s 668 ms<br>
+          Bit rate: 98.8 kb/s<br>
+          Bits/(Pixel*Frame): 0.015<br>
+          Stream size: 249 KiB (43%)<br>
+      </div>
+  
   </div>
+
+</div>
+
 </body>
 </html>
