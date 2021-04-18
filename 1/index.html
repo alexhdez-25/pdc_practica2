@@ -9,6 +9,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <title>Ejercicio 1</title>
 </head>
+
 <body>
   <body>
     <div class="container-fluid">
@@ -26,19 +27,18 @@
    <div class="container-fluid">
     <button type="button" class="btn btn-secondary float-left"><a href="../index.html">Home</a></button>
    </div>
+
+   <hr>
   
-   <div class="panel panel-default">
-       <div style="text-align:center" class="panel-body">Se ha usado Visual Studio Code como editor lenguaje HTML5 y se ha integrado con Github bajo filosofia DepOps para la construccion de esta sitio</div>
-  </div>
-
-
   <div class="container-fluid">
   <div style="text-align:center"> 
   <div class="col-sm-6">
     <div class="row">
+      <p><strong>Clip 1</strong></p>
       <video width="320" height="240" controls>
         <source src="../clip.mp4" type="video/mp4">
     </div>
+    <p><small>
         Format: MPEG-4/AVC   AAC LC<br>
         Resolution: 640X352 pixels<br>
         File size: 5.22 MiB<br>
@@ -50,13 +50,16 @@
         Frame rate: 29.970 (29970/1000) FPS<br>
         Bits/(Pixel*Frame): 0.299<br>
         Stream size: 4.97 MiB (95%)<br>
+    </small></p>
     </div>
 
     <div class="col-sm-6">
       <div class="row">
+        <p><strong>Clip 2</strong></p>
         <video width="320" height="240" controls>
           <source src="../clip3.mp4" type="video/mp4">
       </div>
+      <p><small>
           Format: MPEG-4/AVC   AAC LC<br>
           Resolution: 640X352 pixels<br>
           File size: 5.22 MiB<br>
@@ -67,10 +70,18 @@
           Bit rate: 98.8 kb/s<br>
           Bits/(Pixel*Frame): 0.015<br>
           Stream size: 249 KiB (43%)<br>
+        </small></p>
       </div>
   
   </div>
+ 
+</div>
 
+<br>
+ 
+<div class="container-fluid">
+  <div class="panel panel-default">
+     <div style="text-align:center" class="panel-body">Despues de haber reducido el Bitrate del <strong>95%</strong> (clip 1) al <strong>43%</strong> (Clip 2) se nota una mejoria al momento de la carga de video en pagina pero la perdida en calidad de la imagen se afecta notoriamente por lo que se debe hacer pruebas Ux para consegir la mejor experiencia de usuario</div>
 </div>
 
 </body>

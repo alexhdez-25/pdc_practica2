@@ -1,5 +1,5 @@
 body {
-      background-color: rgb(237, 241, 245);
+      background-color: url('https://static.tumblr.com/6586e93ee88779dc91d6d4c766fee78d/ho55tz8/1hcooxpkn/tumblr_static_82m5ic33fbk8ggcggwcgk0884.png');
     }
 
 button {
@@ -16,7 +16,7 @@ title {
       }
 
 footer {
-  background-color: #777;
+  background-color: rgb(47, 201, 221);
   padding: 10px;
   text-align: center;
   color: white;
